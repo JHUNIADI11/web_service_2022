@@ -1,4 +1,4 @@
-<!-- edit data -->
+<!-- edit data blog-->
 @extends('partial.master-blog')
 
 @section('judul','tambah-blog')

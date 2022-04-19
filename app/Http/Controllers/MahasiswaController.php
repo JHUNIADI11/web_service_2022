@@ -46,7 +46,7 @@ class MahasiswaController extends Controller
             'nama_mahasiswa' => 'required|min:4',
             'semester' => 'required|numeric'
         ];
-        // validasi nim untuk nim agar tidak sama dengan nim yg lain(unique)
+        // validasi nim untuk nim agar berbeda dengan nim yg lain(unique)
         if($request->nim != $data->nim) {
             $rules['nim'] = 'required|unique:mahasiswa';
         }

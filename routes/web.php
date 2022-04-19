@@ -17,9 +17,13 @@ use Illuminate\Support\Facades\Route;
 
 //route portofolio
 Route::get('/',[ProfileController::class, 'index']);
+
 Route::get('/tentang',[ProfileController::class, 'tentang']);
+
 Route::get('/resume',[ProfileController::class, 'resume']);
+
 Route::get('/portfolio',[ProfileController::class, 'portfolio']);
+
 Route::get('/contact',[ProfileController::class, 'contact']);
 
 Route::view('partial', 'partial/master');

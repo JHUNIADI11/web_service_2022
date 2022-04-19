@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Blog;
 use Illuminate\Http\Request;
 
-// controller blog tugas 3
+// controller blog tugas 4(update dan delete)
 class BlogController extends Controller
 {
     public function index()

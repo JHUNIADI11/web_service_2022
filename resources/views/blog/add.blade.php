@@ -1,4 +1,4 @@
-<!-- tambah data -->
+<!-- tambah data blog-->
 @extends('partial.master-blog')
 
 @section('judul','tambah-blog')
